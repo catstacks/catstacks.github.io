@@ -4,7 +4,7 @@
 
 ### Python 
 
-[Matplotlib Experiment 1](/matplotlib.html)
+[Matplotlib Experiment 1](/matplotlib.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
