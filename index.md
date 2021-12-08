@@ -2,9 +2,9 @@
 
 ---
 
-### Category Name 1 
+### Python 
 
-[Project 1 Title](/sample_page)
+[Matplotlib Experiment 1](/matplotlib.html)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
