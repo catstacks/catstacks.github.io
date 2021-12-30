@@ -7,7 +7,6 @@ This software development and data science portfolio is based on a Minimal Jekyl
 ### Roadmap
 
 
-___
 
 ### References
 
