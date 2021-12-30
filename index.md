@@ -5,15 +5,15 @@
 ### Python 
 
 [Matplotlib Experiment 1](/matplotlib.html)
-<img src="images/houseVis.png?raw=true"/>
+<img src="assets/images/houseVis.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
