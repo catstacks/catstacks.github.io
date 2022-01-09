@@ -17,22 +17,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <title>Cherise Stanley | Personal Portfolio</title>
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <nav class="flex flex-jc-sb">
+        <div class="overlay has-fade" ></div>
+
+        <nav class="container container--pall flex flex-jc-sb flex-ai-c">
           <a href="/" class="header__logo">
-            <img src="assets/images/illustration-laptop-desktop.svg" alt="laptop graphic">
+            <img src="assets/images/illustration-laptop-desktop.svg" alt="laptop graphic logo">
           </a>
 
-          <a href="#" class="header__menu">
+          <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
             <span></span>
             <span></span>
             <span></span>
           </a>
-
+  
+          <div class="header__links hide-for-mobile">
+            <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a
+            ><a href="#">Blog</a><a href="#">Careers</a>
+          </div>
+  
+          <a href="#" class="button header__cta hide-for-mobile"
+            >Request Invite</a
+          >
         </nav>
+
+        <div class="header__menu has-fade">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Blog</a>
+          <a href="">Projects</a>
+          <a href="">Contact</a>
+        </div>
        
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
