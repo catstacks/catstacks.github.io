@@ -8,6 +8,7 @@
 - [Guess the Number Game](http://example.com/)
 - [Mad Libs Generator](http://example.com/)
 - [Text Based Adventure Game](http://example.com/)
+
 ---
 
 ### Data Management, Manipulation & Modelling in Python 
