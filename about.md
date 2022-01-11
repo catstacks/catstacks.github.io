@@ -1,6 +1,6 @@
 ## About Me
 
-<a href="/" class="header__logo">
+<a href="https://catstacks.github.io/">
 <img src="assets/images/professional profile round.jpg" alt="Logo"/>
 </a>
 
