@@ -1,6 +1,9 @@
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="cherise-stanley-ambcs-938bb814a" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/cherise-stanley-ambcs-938bb814a?trk=profile-badge">View My LinkedIn Profile</a></div>
+
 ## Portfolio
 
-
+---
 
 ### Python 
 
@@ -15,7 +18,7 @@
 [Project 3 Title](http://example.com/)
 <img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
 
-
+---
 
 ### Category Name 2
 
