@@ -212,7 +212,7 @@
     position: relative;
     display: inline-block;
     padding: 0.875rem 2.1875rem;
-    background-image: linear-gradient(to right, #31d35c, #2bb7da);
+    background-image: linear-gradient(to right, hsl(13, 100%, 96%), hsl(12, 88%, 59%));
     border: 0;
     border-radius: 50px;
     cursor: pointer;
@@ -327,7 +327,7 @@
     left: 0;
     right: 0;
     bottom: -30px;
-    background: linear-gradient(to right, #31d35c, #2bb7da);
+    background: linear-gradient(to right, hsl(13, 100%, 96%), hsl(12, 88%, 59%));
     opacity: 0;
     transition: opacity 300ms ease-in-out;
   }
@@ -588,7 +588,7 @@
     transition: fill 150ms ease-in-out;
   }
   .footer__social a:hover svg path {
-    fill: #31d35c;
+    fill: hsl(12, 88%, 59%);
   }
   .footer__social a:not(:last-child) {
     margin-right: 1rem;
@@ -625,7 +625,7 @@
     transition: color 150ms ease-in-out;
   }
   .footer__links a:hover {
-    color: #31d35c;
+    color: hsl(12, 88%, 59%);
   }
   @media (min-width: 64em) {
     .footer__cta {
