@@ -1,11 +1,7 @@
-
-## Portfolio
-
----
 <html>
 <section class="articles">
       <div class="article__content container container--pall">
-        <h2>Latest Articles</h2>
+        <h2>Portfolio</h2>
         <div class="article__grid">
           <a href="#" class="article__item">
             <div
