@@ -237,3 +237,12 @@ Hopefully you have been able to find something useful today. Remember, there are
 
 **Experiment, Stay Motivated and Keep Coding!**
 
+<style>
+body {
+  background-color: linen;
+}
+
+h2, h3, h4 {
+  color: black;
+}
+</style>
