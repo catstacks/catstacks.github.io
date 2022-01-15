@@ -1,7 +1,7 @@
 ## About Me
 
 <a href="https://catstacks.github.io/">
-    <img src="assets/images/professional profile round small.jpg" alt="Logo"/>
+    <img src="assets/images/professional profile round small.png" alt="Logo"/>
 </a>
 
 <html>
