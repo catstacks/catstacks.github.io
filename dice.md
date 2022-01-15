@@ -156,14 +156,77 @@ def dice_roll():
   
 dice_roll()
 ```
-#### 1. Import random
-
-Python has an extensive library of useful packages that we can import. One such example is random which will be used to generate random numbers to simulate the probabilistic nature of a die.
+#### 1. Follow Steps 1 through 4 from Version 1 - Using IF/ELSE
 
 ```python
 import random
+
+def dice_roll():
+    sides = int(input('Input the number of sides on your die: '))
+    roll = random.randint(1, sides)
+    print('You rolled a', roll)
 ```
 
+#### 2. Create option to roll again with user input and the WHILE loop.
+
+Using the same method as Version 1, add a user input option that asks if they want to roll again.
+
+```python
+#import random
+
+#def dice_roll():
+    #sides = int(input('Input the number of sides on your die: '))
+    #roll = random.randint(1, sides)
+    #print('You rolled a', roll)   
+    roll_again = str(input('Would you like to roll again? Please enter Y or N to continue: '))
+    while roll_again == 'Y' or roll_again == 'y' or roll_again == 'yes'  or roll_again == 'YES':
+        return dice_roll()
+    print('Thanks for playing!')
+```
+*while explained*
+Another way we can get our code to do something in response to the user input is through a while loop.
+
+We tell the program that while something is happening do this otherwise do something else and end the loop. In this case the something is happening refers to what the user writes as their response i.e. as long as the user responds with one of the accepted responses to continue rolling, the dice app will continue to run from beginnning to end. The do something else and end the loop refers to making the dice app print 'Thanks for playing!'and to stop running the dice app.
+
+> Caution: It is possible to create infinite loops when using while if you are not careful enough to define a way for the loop to stop. To avoid this, break can be used to force the program to stop. Simply write break wherever you want a program to end.
+
+WHILE LOOP structure >>
+**while a_condition_to_be_met = a_value_of_the_condition:**
+    **return an_action**
+**return a_different_action**
+
+### Stretch Version - Importing the dice as an application
+
+#### 1. Create a dice.py file
+
+The function will be identical to the WHILE loop example in Version 2 except that this time, the function will not be invoked in the same file. Instead a separate file that is solely dedicated to running the dice app is created. In this sense, the dice.py file acts as a backend containing all the 'hidden' logic for the dice application.
+
+```python
+# dice.py file
+import random
+
+def dice_roll():
+    sides = int(input('Input the number of sides on your die: '))
+    roll = random.randint(1, sides)
+    print('You rolled a', roll)   
+    roll_again = str(input('Would you like to roll again? Please enter Y or N to continue: '))
+    while roll_again == 'Y' or roll_again == 'y' or roll_again == 'yes'  or roll_again == 'YES':
+        return dice_roll(sides)
+    print('Thanks for playing!')
+```
+
+#### 2. Create an application file (recommended name: dice_app.py)
+
+Now that the backend logic has been handled elsewhere, we must import it (just like we did with random in Version 1) to be able to connect the front with the back and run the app. When we invoke the function, this time we must also reference the file containing the logic (dice).
+
+Invoke a function that references a file structure >> **the_file.the_function(function arguments, if any)**
+
+```python
+# dice_app.py file
+import dice
+
+dice.dice_roll()
+```
 ### This project is:
 
 <img src="assets/images/python-power-logo-140x182.png"/>
