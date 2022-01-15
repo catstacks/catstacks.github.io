@@ -1,9 +1,9 @@
-## Creating a simple dice app with python
+# **Creating a simple dice app with python**
 
 **Project description:** This simple dice app allows users to decide the number of sides on the die.
 Topics covered: functions, data types (string and integer), assigning variables, user inputs, if/else statements, print statements, while loops, imports.
 
-### Version 1 - Using IF/ELSE
+## **Version 1 - Using IF/ELSE**
 
 Relevant code snippets are uncommented for each step. The finished code: 
 
@@ -22,14 +22,14 @@ def dice_roll():
   
 dice_roll()
 ```
-#### 1. Import random
+### 1. Import random
 
 Python has an extensive library of useful packages that we can import. One such example is random which will be used to generate random numbers to simulate the probabilistic nature of a die.
 
 ```python
 import random
 ```
-#### 2. Define a function
+### 2. Define a function
 
 Give the function a useful and memorable name that relates to what it does when used. As we are creating a dice rolling app, dice_roll has been suitably chosen as the function name.
 
@@ -41,7 +41,7 @@ Function structure >> **def the_function_name():**
 def dice_roll():
 ```
 
-#### 3. Assign variables
+### 3. Assign variables
 
 Now we want to start making our function useful.
 
@@ -65,7 +65,7 @@ We want the rolls to be generated randomly to reflect the probabilistic nature o
 
 Generate random integer structure >> **the_variable = random.randint(minimum_value, maximum_value)**
 
-#### 4. Write the print statement
+### 4. Write the print statement
 
 We add a print statement so that the user can actually see the number the dice app generated. To do this we use the print() function. The user will see the text written in the print statement followed by the roll (the randomly generated number).
 
@@ -80,7 +80,7 @@ Print statement with variable structure >> print('The text you want the user to 
     print('You rolled a', roll)
 ```
 
-#### 5. Create option to roll again with user input. Write the IF/ELSE statement.
+### 5. Create option to roll again with user input. Write the IF/ELSE statement.
 
 ```python
 #import random
@@ -114,7 +114,7 @@ IF/ELSE structure >>
     **return a_different_action**
 
 
-#### 6. Invoke the function
+### 6. Invoke the function
 
 To run our code we must now invoke the function.
 
@@ -138,7 +138,7 @@ Invoke a function structure >> **the_function(function arguments, if any)**
 dice_roll()
 ```
 
-### Version 2 - Using WHILE loop
+## **Version 2 - Using WHILE loop**
 
 The finished code:
 
@@ -156,7 +156,7 @@ def dice_roll():
   
 dice_roll()
 ```
-#### 1. Follow Steps 1 through 4 from Version 1 - Using IF/ELSE
+### 1. Follow Steps 1 through 4 from Version 1 - Using IF/ELSE
 
 ```python
 import random
@@ -167,7 +167,7 @@ def dice_roll():
     print('You rolled a', roll)
 ```
 
-#### 2. Create option to roll again with user input and the WHILE loop.
+### 2. Create option to roll again with user input and the WHILE loop.
 
 Using the same method as Version 1, add a user input option that asks if they want to roll again.
 
@@ -195,9 +195,9 @@ WHILE LOOP structure >>
     **return an_action**
 **return a_different_action**
 
-### Stretch Version - Importing the dice as an application
+## **Stretch Version - Importing the dice as an application**
 
-#### 1. Create a dice.py file
+### 1. Create a dice.py file
 
 The function will be identical to the WHILE loop example in Version 2 except that this time, the function will not be invoked in the same file. Instead a separate file that is solely dedicated to running the dice app is created. In this sense, the dice.py file acts as a backend containing all the 'hidden' logic for the dice application.
 
@@ -215,7 +215,7 @@ def dice_roll():
     print('Thanks for playing!')
 ```
 
-#### 2. Create an application file (recommended name: dice_app.py)
+### 2. Create an application file (recommended name: dice_app.py)
 
 Now that the backend logic has been handled elsewhere, we must import it (just like we did with random in Version 1) to be able to connect the front with the back and run the app. When we invoke the function, this time we must also reference the file containing the logic (dice).
 
@@ -227,7 +227,7 @@ import dice
 
 dice.dice_roll()
 ```
-### This project is:
+## This project is:
 
 <img src="assets/images/python-power-logo-140x182.png"/>
 
@@ -236,13 +236,3 @@ dice.dice_roll()
 Hopefully you have been able to find something useful today. Remember, there are many different paths to a solution so don't feel that what you have seen today is the only way.
 
 **Experiment, Stay Motivated and Keep Coding!**
-
-<style>
-body {
-  background-color: linen;
-}
-
-h2, h3, h4 {
-  color: black;
-}
-</style>
