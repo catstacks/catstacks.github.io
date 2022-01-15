@@ -156,6 +156,13 @@ def dice_roll():
   
 dice_roll()
 ```
+#### 1. Import random
+
+Python has an extensive library of useful packages that we can import. One such example is random which will be used to generate random numbers to simulate the probabilistic nature of a die.
+
+```python
+import random
+```
 
 ### This project is:
 
