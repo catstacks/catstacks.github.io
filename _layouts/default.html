@@ -65,6 +65,20 @@
         {% endif %}
       </header>
 
+      <section class="hero">
+        <div class="container">
+          <div class="hero__image"></div>
+  
+          <div class="hero__text container--pall">
+            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+            {{ content }}               
+            
+          </div>
+        </div>     
+      </section>
+
       <footer class="footer">
         <div class="container">
           <a class="footer__logo" href="#">
