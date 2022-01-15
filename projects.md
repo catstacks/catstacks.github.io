@@ -4,10 +4,10 @@
 
 ### Python Tutorials
 
-- [Dice Rolling Simulator](https://catstacks.github.io/dice.html)
-- [Guess the Number Game](https://catstacks.github.io/guessnumber.html)
-- [Mad Libs Generator](https://catstacks.github.io/madlibs.html)
-- [Text Based Adventure Game](https://catstacks.github.io/textadventure.html)
+- [Dice Rolling Simulator](https://computed-and-booted.netlify.app/blog/)
+- [Guess the Number Game](https://computed-and-booted.netlify.app/blog/)
+- [Mad Libs Generator](https://computed-and-booted.netlify.app/blog/)
+- [Text Based Adventure Game](https://computed-and-booted.netlify.app/blog/)
 
 ---
 
@@ -24,12 +24,12 @@
 ### Machine Learning in Python
 
 [Titanic Survival Analysis with Logistic Regression](http://example.com/)
-<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
+<img src="/assets/images/correlation-screenshot1.png"/>
 
 ---
 
-[Heart Disease Classification with Neural Networks](http://example.com/)
-<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
+[Heart Disease Classification with Neural Networks](https://catstacks.github.io/heartml.html)
+<img src="/assets/images/heart disease clf pairplots.png"/>
 
 ---
 
