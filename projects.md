@@ -4,7 +4,7 @@
 
 ### Python Tutorials
 
-- [Dice Rolling Simulator](https://computed-and-booted.netlify.app/blog/)
+- [Dice Rolling Simulator](https://computed-and-booted.netlify.app/blog/dice-tutorial/)
 - [Guess the Number Game](https://computed-and-booted.netlify.app/blog/)
 - [Mad Libs Generator](https://computed-and-booted.netlify.app/blog/)
 - [Text Based Adventure Game](https://computed-and-booted.netlify.app/blog/)
