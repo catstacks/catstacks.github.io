@@ -1,8 +1,8 @@
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+google_analytics: G-2TRYTQMQEW # Google Analytics tracking ID here
 title: Cherise Stanley # your name (or website title) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Passionate about learning through self-development. Developing lifelong skills in data science, software development, engineering, and mathematics. 
   <br><br>
-
-  
-
-google_analytics: G-2TRYTQMQEW # your Google Analytics tracking ID here
