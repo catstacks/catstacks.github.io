@@ -1,5 +1,7 @@
-## Projects
-
+---
+layout: default
+title: Projects
+description: Take a look at my work here.
 ---
 
 ### Python Tutorials

@@ -1,4 +1,8 @@
-## About Me
+---
+layout: default
+title: About Me
+description: Thanks for stoppping by, you can learn more about me here.
+---
 
 <a href="https://catstacks.github.io/">
     <img src="assets/images/professional profile round small.png" alt="Logo"/>
