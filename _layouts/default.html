@@ -21,11 +21,7 @@
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
       {% if page.url != "/" %}
-        <a href="index.html" class="btn">Home</a>
-      {% endif %}
-
-      {% if page.title != "About Me" %}
-        <a href="about.html" class="btn">About</a>
+        <a href="/" class="btn">Home</a>
       {% endif %}
 
       {% if page.title != "Projects" %}
@@ -47,9 +43,7 @@
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">This project site</a> is lovingly maintained by <a href="{{ site.github.owner_url }}">Cherise Stanley</a>.</span>
-        {% endif %}
       </footer>
     </main>
   </body>
