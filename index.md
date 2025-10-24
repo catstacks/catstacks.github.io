@@ -1,123 +1,32 @@
 ---
 layout: default
+title: Home
+description: My poisons of choice are engineering, mathematics, data science and computer science.
 ---
+<div style="text-align:center">
+    <a href="https://uk.linkedin.com/in/cherise-stanley-938bb814a" target="_blank">
+        <img src="assets\images\puffs_logo_250px.png" alt="Logo"/>
+    </a>
+</div>
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<div style="text-align:center">
+    <h2>Background</h2>
+        <p>I have over 3 years of software experience working with clients in the healthcare and finance sectors, as well as online teaching experience in data science. Alongside my professional work, I am pursuing a part-time degree in Modelling and Applications which combines programming with mathematics to solve engineering problems.<br><br>
+        Click on <a class="badge-base__link LI-simple-link" href="https://uk.linkedin.com/in/cherise-stanley-938bb814a" target="_blank">my head </a>to see my professional profile on LinkedIn.
+        </p>
+    <h2>Serious Skills</h2>
+    <p>
+        <b>Programming Languages:</b> Python, C#, C++, TypeScript, SQL<br>
+        <b>Data Science & Machine Learning:</b> PyTorch, scikit-learn, SciPy, Pandas, NumPy<br>
+        <b>Data Visualization:</b> Matplotlib, Seaborn, Plotly<br>
+        <b>Parallel/HPC:</b> CUDA, MPI, OpenMP<br>
+        <b>Quantum:</b> QCEngine, Qiskit, AWS Braket<br>
+        <b>Web Development:</b> React, Node.js, Flask, Express<br>
+        <b>DevOps & Cloud:</b> Docker, AWS, GCP<br>
+        <b>Other Tools:</b> Git, REST APIs, Linux<br>
+        <b>Theory:</b> Linear Algebra, Probability, Statistics, Optimisation, Algorithms<br>
+        <b>Spoken Languages:</b> French, German, Spanish, Japanese, Mandarin<br>
+    </p>
+    <h2>Beyond Tech</h2> 
+        <p>When I’m not doing techy things, you can find me dancing to my favourite tunes, playing some solitaire or pondering whether my pet fish truly loves me.</p>
+</div>
