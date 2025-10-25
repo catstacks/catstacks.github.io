@@ -4,32 +4,39 @@ title: Mad Libs Generator
 description: Users can create a fun story based on text inputs.
 ---
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Topics covered:** data types (string and integer), assigning variables, user inputs, print statements.  
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+```python
+animal = input('Enter an animal: ')
+country = input('Enter a country: ')
+plural_noun = input('Enter a plural noun (a plural name word e.g. berries, cars, people etc.): ')
+food = input('Enter a food: ')
+screen_device = input('Enter the name of a device with a screen e.g. phone: ')
+noun = input('Enter a noun (a name word e.g. house, tree, sun etc.): ')
+verb = input('Enter a verb (a doing word e.g. eat, run, smile etc.): ')
+adjective = input('Enter an adjective (a decribing word e.g. dark, pleasant, round etc.): ')
+whitespace = " "
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+story_text = "The majestic" + whitespace + animal + whitespace + 
+"has roamed the forests of" + whitespace + country + whitespace + 
+"for thousands of years. Today, she wanders in search of" + whitespace + plural_noun + 
+". She must find food to survive. While hunting for" + whitespace + food + 
+", she found a/an" + whitespace + screen_device + whitespace + 
+"hidden behind a" + whitespace + noun + 
+". She has never seen anything like this before. What will she do? With the device in her teeth, she tries to" + whitespace + verb + 
+", but nothing happens. She takes it back to her family. When her family sees it, they quickly" + whitespace + verb + 
+". Soon, the device becomes" + whitespace + adjective + 
+", and the family decides to put it back where they found it."
 
-```javascript
-if (isAwesome){
-  return true
-}
+print(story_text)
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
+## This project is:
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+<img src="assets/images/python-power-logo-140x182.png"/>
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### **Congratulations! You have reached the end of this tutorial.**
 
-<img src="assetsimages/dummy_thumbnail.jpg?raw=true"/>
+Hopefully you have been able to find something useful today. Remember, there are many different paths to a solution so don't feel that what you have seen today is the only way.
 
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Experiment, Stay Motivated and Keep Coding!**
