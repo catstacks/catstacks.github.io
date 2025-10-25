@@ -4,48 +4,57 @@ title: Projects
 description: Take a look at my work here.
 ---
 
-### Python Tutorials
+### Fun and Games with Python
 
-- [Dice Rolling Simulator](https://computed-and-booted.netlify.app/blog/dice-tutorial/)
-- [Guess the Number Game](https://computed-and-booted.netlify.app/blog/)
-- [Mad Libs Generator](https://computed-and-booted.netlify.app/blog/)
-- [Text Based Adventure Game](https://computed-and-booted.netlify.app/blog/)
+[Dice Rolling Simulator](dice.html)  
+
+---
+[Guess the Number Game](guessnumber.html)  
+
+---
+[Mad Libs Generator](madlibs.html)  
+
+---
+[Text Based Adventure Game](textadventure.html)
 
 ---
 
 ### Data Management, Manipulation & Modelling in Python 
 
-[Earthquake Data Visualisation](/sample_page)  
+[Earthquake Data Visualisation](earthquake.html)  
 
-<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
+<img src="assets/images/earthquake.png"/>
 
 ---
-[JFK Flight Delay Analysis with Linear Regression](/pdf/sample_presentation.pdf)
-<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
+[JFK Flight Delay Analysis with Linear Regression](jfk.html)  
+
+| TAIL_NUM | DEST | DEP_DELAY | CRS_ELAPSED_TIME| TAXI_OUT |
+|----------|------|-----------|-----------------|----------|
+| N828JB   | CHS  | -1        | 124             | 14       |
+| N992JB   | LAX  | -7        | 371             | 15       |
+| N959JB   | FLL  | 40        | 181             | 22       |
+| N999JQ   | MCO  | -2        | 168             | 12       |
+| N880DN   | ATL  | -4        | 139             | 13       |
 
 ---
 ### Machine Learning in Python
 
-[Titanic Survival Analysis with Logistic Regression](http://example.com/)  
+[Titanic Survival Analysis with Logistic Regression](titanic.html)  
 
-<img src="/assets/images/correlation-screenshot1.png"/>
-
----
-
-[Heart Disease Classification with Neural Networks](https://catstacks.github.io/heartml.html)  
-
-<img src="/assets/images/heart disease clf pairplots.png"/>
+<img src="/assets/images/titanic.png"/>
 
 ---
 
-[Fake News Prediction with Supervised Machine Learning](http://example.com/)  
+[Heart Disease Classification with Neural Networks](heartml.html)  
 
-<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
+<img src="/assets/images/heart_disease_clf_pairplots_500px.png"/>
 
 ---
 
-[Charity Geolocation Analysis with Unsupervised Machine Learning](http://example.com/)  
+[Fake News Prediction with Supervised Machine Learning](fakenews.html)  
 
-<img src="assets/images/dummy_thumbnail.jpg?raw=true"/>
+---
+
+[Charity Geolocation Analysis with Unsupervised Machine Learning](charity.html)  
 
 ---
