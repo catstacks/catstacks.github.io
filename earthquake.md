@@ -1,6 +1,6 @@
 ## Earthquake Data Visualisations
 
-**Project description:** A sample earthquake dataset was used to experient different types of data visualisation with matplotlib and pandas. 
+**Project description:** A sample earthquake dataset was used to explore different types of data visualisation with matplotlib and pandas. 
 
 ### 1. Is the magnitude of the event related strongly to the type of event i.e. do some event types have significanty larger magnitudes than others? 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Text Based Adventure Game
-description: This game allows users to make choices that affect the game ending.
+description: This game allows users to make choices that affect their game ending.
 ---
 
 **Topics covered:** functions, data types (string and integer), assigning variables, user inputs, if/else statements, print statements, while loops, imports.  
