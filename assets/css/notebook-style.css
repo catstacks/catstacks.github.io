@@ -1,0 +1,15 @@
+.notebook-content .CodeMirror {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.notebook-content .highlight {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.notebook-content pre {
+  border: none !important;
+  box-shadow: none !important;
+}

@@ -1,7 +1,10 @@
-# **Creating a simple dice app with python**
+---
+layout: default
+title: Dice Rolling Simulator
+description: This simple dice app allows users to decide the number of sides on the die.
+---
 
-**Project description:** This simple dice app allows users to decide the number of sides on the die.
-Topics covered: functions, data types (string and integer), assigning variables, user inputs, if/else statements, print statements, while loops, imports.
+**Topics covered:** functions, data types (string and integer), assigning variables, user inputs, if/else statements, print statements, while loops, imports. 
 
 ## **Version 1 - Using IF/ELSE**
 
@@ -227,12 +230,3 @@ import dice
 
 dice.dice_roll()
 ```
-## This project is:
-
-<img src="assets/images/python-power-logo-140x182.png"/>
-
-### **Congratulations! You have reached the end of this tutorial.**
-
-Hopefully you have been able to find something useful today. Remember, there are many different paths to a solution so don't feel that what you have seen today is the only way.
-
-**Experiment, Stay Motivated and Keep Coding!**
