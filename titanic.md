@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notebook
 title: Titanic Survival
 description: with Logistic Regression
 ---

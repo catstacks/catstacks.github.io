@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notebook
 title: Heart Disease Classification
 description: with Neural Networks
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notebook
 title: Earthquake Data Visualisations
 description: with Matplotlib and Pandas
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notebook
 title: JFK Flight Delay Analysis
 description: with Linear Regression
 ---

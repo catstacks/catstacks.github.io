@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: notebook
 title: Fake News Prediction
 description: with Supervised Machine Learning
 ---
 
-<html>
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29425,11 +29424,3 @@ dtype: int64</pre>
 
 </div>
 </body>
-
-
-
-
-
-
-
-</html>

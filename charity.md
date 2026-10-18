@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: notebook
 title: Charity Geolocation Analysis
 description: with Unsupervised Machine Learning
 ---
