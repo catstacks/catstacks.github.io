@@ -25,7 +25,7 @@ This game allows users to make choices that affect their game ending.
 
 ### Data Management, Manipulation & Modelling in Python 
 
-[Earthquake Data Visualisation](earthquake.html)  
+[Earthquake Data Visualisations](earthquake.html)  
 This project involved analysing an earthquake dataset to explore different types of data visualisation with matplotlib and pandas.
 
 <img src="assets/images/earthquake.png"/>
