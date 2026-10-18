@@ -51,7 +51,8 @@ This project made use of the logistic regression model to identify which passeng
 
 ---
 
-[Heart Disease Classification with Neural Networks](heartml.html)  
+[Heart Disease Classification with Neural Networks](heart_clf.html)  
+<!-- [CUSTOM Heart Disease Classification with Neural Networks](heartml.html)   -->
 This project aimed to create a classification model that could accurately predict whether or not a patient will develop heart disease based on their recorded health metrics.
 
 <img src="/assets/images/heart_disease_clf_pairplots_500px.png"/>

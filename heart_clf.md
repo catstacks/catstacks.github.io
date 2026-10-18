@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Heart Disease Classification
+description: with Neural Networks
+---
+
 <html>
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Heart Disease Classification Assignment</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -919,7 +924,7 @@ html{
           box-sizing:inherit; }
 
 body{
-  font-size:14px;
+  /* font-size:14px; */
   font-weight:400;
   letter-spacing:0;
   line-height:1.28581;
