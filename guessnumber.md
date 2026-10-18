@@ -39,13 +39,3 @@ def guess_game():
     
 guess_game() 
 ```
-
-## This project is:
-
-<img src="assets/images/python-power-logo-140x182.png"/>
-
-### **Congratulations! You have reached the end of this tutorial.**
-
-Hopefully you have been able to find something useful today. Remember, there are many different paths to a solution so don't feel that what you have seen today is the only way.
-
-**Experiment, Stay Motivated and Keep Coding!**
